@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(117, 113, 113)
+}
+
+h1 {
+  text-align: center;
+}
+
+#generateBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: auto;
+  height: 300px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    margin-bottom: 16px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: green;
+  }
+  
+  .active {
+    background-color: #000;
+  }
+  
+  #buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 4px;
+    width: 100px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#weather-info {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#weather-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}

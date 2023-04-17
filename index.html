@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombies and Dogs</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="imageContainer">
+        <img id="mapImage">
+        <img id="mapImageZombie">
+        <img id="mapImageDog">
+    </div>
+    <p>Poäng: <span id="score">0</span></p>
+    <div id="grid-container"></div>
+    <div id="buttons-container">
+        <div class="btn-group">
+            <button id="west-btn">Väst</button>
+        </div>
+        <div class="btn-group">
+            <button id="north-btn">Norr</button>
+            <button id="south-btn">Söder</button>
+        </div>
+        <div class="btn-group">
+            <button id="east-btn">Öst</button>
+        </div>
+    </div>
+    <h1>Väder i Eskilstuna</h1>
+    <div id="weather-info">
+        <p id="temperature">Temperatur: <span id="temperature-value"></span>°C</p>
+        <p id="weather-description">Väderbeskrivning: <span id="weather-description-value"></span></p>
+        <p id="wind-speed">Vindhastighet: <span id="wind-speed-value"></span> m/s</p>
+        <img id="weather-icon" src="" alt="Vädersymbol">
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
